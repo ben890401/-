@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="back">
+    <div id="background" style="border: 2px solid black;">
+        <div class="" id="nav-out">
+            <div class="" id="nav">
+                <a href="./work.html" target="_blank" class="d-block"><img
+                        src="./work-img/ffxiv-icon.png" id="nav-img"></a>
+                <div class="" id="nav-text">
+                    <a href="">
+                        <div class="sidebar"
+                            style="background-image:url('https://fgo.kazemai.io/common/images/sidebar00.png')" ;>
+                            新聞</div>
+                    </a>
+                    <a href="">
+                        <div class="sidebar"
+                            style="background-image:url('https://fgo.kazemai.io/common/images/sidebar00.png')" ;>
+                            活動</div>
+                    </a>
+                    <a href="">
+                        <div class="sidebar"
+                            style="background-image:url('https://fgo.kazemai.io/common/images/sidebar00.png')" ;>
+                            其他</div>
+                    </a>
+                    <a href="" id="sidebar-login">
+                        <div class="sidebar"
+                            style="background-image:url('https://fgo.kazemai.io/common/images/sidebar00.png')" ;>
+                            登入</div>
+                    </a>
+                </div>
+                <button id="menu-btn">&#9776;</button>
+            </div>
+        </div>
+        <div class="form" id="form-1">
+            <form class="form" id="login-form">
+                帳號:<input type="text">
+                <p></p>
+                密碼:<input type="password">
+                <p></p>
+                <button id="bn1">登入</button>
+                <button id="signbn" class="">註冊帳號</button>
+            </form>
+        </div>
+        <div class="form hidden" id="form-2">
+            <form class="form" id="sign-form" action="login.php"  method="post">
+                帳號:<input type="text"><p></p>
+                密碼:<input type="password"><p></p>
+                確認密碼:<input type="password"><p></p>
+                <button id="bn2">確認註冊</button>
+                <button id="loginbn">已有帳號</button>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
